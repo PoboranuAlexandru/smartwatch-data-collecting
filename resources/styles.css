@@ -1,0 +1,106 @@
+.sensor-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 20;
+  x: 50%;
+  y: $+5;
+}
+
+.sensor-data {
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 20;
+  x: 50%;
+  y: $;
+}
+
+#start-collecting {
+   fill: fb-green;
+}
+
+#start-collecting #text {
+  x: 2%;
+  y: 40%;
+  font-size: 18;
+  text-buffer: "Start collecting";
+  fill: black;
+}
+
+#stop-collecting {
+   fill: fb-red;
+}
+
+#stop-collecting #text {
+  x: 2%;
+  y: 40%;
+  font-size: 18;
+  text-buffer: "Stop collecting";
+  fill: black;
+}
+
+.btnSelection {
+  fill: fb-orange;
+  height: 75;
+}
+
+.btnBack {
+  fill: fb-red;
+  height: 75;
+}
+
+.btnSelection #text{
+  x: 2%;
+  y: 40%;
+  font-size: 28;
+  fill: black;
+  text-anchor: middle;
+}
+
+.btnBack #text{
+  x: 2%;
+  y: 40%;
+  font-size: 28;
+  fill: black;
+  text-anchor: middle;
+  text-buffer: "                                Back";
+}
+
+#btn-movement #text{
+  text-buffer: "                              Movement";
+}
+
+#btn-desk #text {
+  text-buffer: "                           Desk activities";
+}
+
+#btn-gestures #text {
+  text-buffer: "                              Gestures";
+}
+
+#btn-slow #text{
+  text-buffer: "                          Normal movement";
+}
+
+#btn-fast #text {
+  text-buffer: "                            Fast movement";
+}
+
+#btn-pockets #text {
+  text-buffer: "                          Hands in pockets";
+}
+
+#btn-handwave #text{
+  text-buffer: "                             Handwave";
+}
+
+#btn-signature #text {
+  text-buffer: "                           Air signature";
+}
+
+#btn-infinity #text {
+  text-buffer: "                             Infinity";
+}

@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~5.0.0"
+  },
+  "fitbit": {
+    "appUUID": "452da335-d992-4708-a604-b3f2cd3b4c86",
+    "appType": "app",
+    "appDisplayName": "Proiect_Licenta",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "vulcan",
+      "atlas"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Proiect_Licenta"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
